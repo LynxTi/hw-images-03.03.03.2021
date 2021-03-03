@@ -1,0 +1,26 @@
+
+
+.vektor-images {
+    font-size: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.svg-image {
+    width: 350px;
+    height: 350px;
+}
+
+
+.svg-image:hover {
+    width: 500px;
+}
+
+.svg-image:hover .top-part-cicle {
+    fill:green;
+
+}
+
+.svg-image:hover g {
+    fill: grey;
+}
