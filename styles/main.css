@@ -1,5 +1,4 @@
 
-
 .vektor-images {
     font-size: 100px;
     display: flex;
@@ -12,15 +11,32 @@
 }
 
 
-.svg-image:hover {
-    width: 500px;
+.top-part-cicle {
+    fill:#FF1A1A;
+}
+
+
+.top-part-ellipse {
+    fill:#D60909;
+}
+
+.svg-image:hover .top-part-ellipse {
+    fill:#A7BBC1;
 }
 
 .svg-image:hover .top-part-cicle {
-    fill:green;
-
+    fill:#FFFFFF;
 }
 
-.svg-image:hover g {
-    fill: grey;
+.bottom-part-cicle {
+    fill:#A7BBC1;
 }
+
+.svg-image:hover .bottom-part-cicle {
+    fill:#D60909;
+}
+
+.bottom-part-ellipse {
+    fill:#FFFFFF
+}
+
